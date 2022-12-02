@@ -6,7 +6,7 @@ function ItemList(props) {
   return (
     <>
       {emptyArray ? (
-        <Loader/>
+        <Loader  />
       ) : (
         props.productsList.map((product) => (
           <Item

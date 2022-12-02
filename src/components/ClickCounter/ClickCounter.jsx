@@ -18,9 +18,9 @@ function ClickCounter({ stock, onAddToCart }) {
 
   return (
     <>
-      <Button color={"orange"}  onClick={aumentar}>+</Button>
+      <Button color={"white"}  onClick={aumentar}>+</Button>
       <div>cantidad de productos: {cantidad} </div>
-      <Button color={"brown"} onClick={disminuir}>-</Button>
+      <Button color={"white"} onClick={disminuir}>-</Button>
       <br />
       <Button onClick={()=>onAddToCart(cantidad)}>Agregar al carrito</Button>
     </>

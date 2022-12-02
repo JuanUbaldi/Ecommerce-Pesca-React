@@ -1,9 +1,10 @@
 .btn{
     padding: 5px, 15px;
-    color: white;
-    background-color: blue;
-    max-width: 150px;
-    border-radius: 4px;
+    color: rgb(99, 67, 115);
+    background-color: rgb(151, 151, 196);
+    height: 30px;
+    max-width: 250px;
+    border-radius: 10px;
     border: none;
     margin: 5px, 15px;
 }

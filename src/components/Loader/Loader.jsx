@@ -1,17 +1,8 @@
-import React from 'react'
-import { Metronome } from '@uiball/loaders'
+import React from "react";
+import { Metronome } from "@uiball/loaders";
 
-
-function Loader({size, speed, color}) {
-  return (
-    <Metronome 
- size={size}
- speed={speed} 
- color={color}
-
-
-/>
-  )
+function Loader() {
+  return <Metronome style={{ marginLeft: 500, color: "blue" }} />;
 }
 
-export default Loader
+export default Loader;

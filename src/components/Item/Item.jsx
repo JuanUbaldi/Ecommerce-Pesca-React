@@ -1,13 +1,11 @@
 import React from "react";
 import Button from "../Button/Button";
 import "./item.css";
-import ClickCounter from "../ClickCounter/ClickCounter";
 import { Link } from "react-router-dom";
 function Item(props) {
-  console.log(props.Key);
   let urlId = `/detalle/${props.Key}`;
   return (
-    <div className="card">
+    <div className="cards">
       <div className="card-img">
         <img src={props.imgUrl} alt="Product-Img" />
       </div>
@@ -20,7 +18,6 @@ function Item(props) {
         <Button>comprar</Button>
       </Link>
       <br />
-      <ClickCounter stock={props.stock} />
     </div>
   );
 }

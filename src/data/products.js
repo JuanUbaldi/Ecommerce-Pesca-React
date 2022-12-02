@@ -1,4 +1,4 @@
-const products = [
+/*const products = [
   {
     id: 1,
     titulo: "Anzuelo",
@@ -135,4 +135,4 @@ const products = [
     imagen: "/Img/plomada1.jpg",
   },
 ];
- export default products
+ export default products*/

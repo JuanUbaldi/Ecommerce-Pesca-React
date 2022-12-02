@@ -1,9 +1,7 @@
-
-
 .card-img {
   width: 180px;
   height: 180px;
-  background-color: aqua;
+  background-color: rgb(236, 234, 245);
   object-fit: cover;
   margin-left: 25%;
 }
@@ -13,15 +11,19 @@
   object-fit: contain;
 }
 
-.card {
-  margin-top:120px;
-  background-color: rgb(214, 203, 212);
+.cards {
+  margin-top: 120px;
+  padding: 10px;
+  background-color: rgb(214, 227, 177);
+  border-radius: 30px;
   border: 1px rgb(76, 4, 4) solid;
   width: 20%;
   height: 500px;
- 
 }
-.card-detail {
-  padding: 12px, 12px;
-  background-color: blue;
+
+@media screen and (max-width: 580px) and (min-width: 1px) {
+  .cards {
+    width: 70%;
+    margin-left: 10%;
+  }
 }

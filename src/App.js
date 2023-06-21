@@ -32,6 +32,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </CartContextProvider>
+      <Gracias />
       <footer className="footer">
         <div>
           <a href="https://es-la.facebook.com/">

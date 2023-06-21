@@ -8,7 +8,7 @@ function Navbar() {
     <div className="DivTitulo">
       <div className="DivTitulo2">
         <img src="/Img/gabiota.png" alt="" />
-        <h1 className="Titulo">Artículos de pesca</h1>
+        <h1 className="Titulo">Artículo de pesca: El Besugo</h1>
 
         <CartWidget />
       </div>

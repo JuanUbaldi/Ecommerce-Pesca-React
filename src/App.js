@@ -40,8 +40,8 @@ function App() {
           <a href="https://www.instagram.com/">
             <img src="/Img/insta.png" alt="instagram" target="_blank"></img>
           </a>
-          <h3>telefono:123456</h3>
-          <h3>Email: ubaldijuan@gmail.com</h3>
+          <h3>telefono:22623729288</h3>
+          <h3>Email:ElBesugo@gmail.com</h3>
         </div>
       </footer>
     </div>

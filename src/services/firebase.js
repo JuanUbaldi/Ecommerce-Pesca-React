@@ -71,7 +71,7 @@ export async function getItemsFromAPIByCategory(categoryId) {
 export async function createBuyOrderFirestore(buyOrderData) {
   const collectionRef = collection(DB, "buyOrders");
   const docRef = await addDoc(collectionRef, buyOrderData);
-  
+
   return docRef.id;
 }
 export async function createBuyOrderFirestorewithstock(buyOrderData) {

@@ -1,0 +1,38 @@
+.home {
+  height: 100vh;
+  background-color: #001858;
+}
+.homeImg {
+  position: relative;
+}
+
+.homeH1 {
+  position: absolute;
+  margin-left: 620px;
+  margin-top: 180px;
+  font-size: 50px;
+  color: #f582ae;
+}
+.homeRelative {
+  position: relative;
+}
+
+.buttonHome {
+  position: absolute;
+  margin-left: 450px;
+  margin-bottom: 350px;
+  background-color: #f582ae;
+  border-radius: 8px;
+  color: #001858;
+  height: 30px;
+  width: 100px;
+}
+
+.homeH3 {
+  position: absolute;
+  margin-left: 550px;
+  font-size: 30px;
+  color: #fef6e4;
+  margin-bottom: 130px;
+  text-align: center;
+}

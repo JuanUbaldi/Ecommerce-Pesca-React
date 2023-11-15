@@ -14,7 +14,10 @@ function Navbar() {
       </div>
       <ul className="Lista">
         <li className="ElementoMenu">
-          <Link to="/">mi tienda</Link>
+          <Link to="/">Home</Link>
+        </li>
+        <li className="ElementoMenu">
+          <Link to="/products">Productos</Link>
         </li>
         <li className="ElementoMenu">
           <Link to="/category/Anzuelos">anzuelos</Link>

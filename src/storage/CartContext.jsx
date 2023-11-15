@@ -27,8 +27,7 @@ export function CartContextProvider(props) {
 
   function removeItem(itemId) {
     const nuevoCart = cart.filter((carrito) => carrito.Key !== itemId);
-
-    setCart(nuevoCart);
+  setCart(nuevoCart);
   }
 
  

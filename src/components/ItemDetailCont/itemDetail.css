@@ -1,21 +1,21 @@
 .Detail {
-  background: linear-gradient(
-      217deg,
-      rgba(225, 251, 247, 0.8),
-      rgba(142, 159, 193, 0) 70.71%
-    ),
-    linear-gradient(127deg, rgba(129, 208, 129, 0.8), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgba(119, 119, 244, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  background-color: #f3d2c1;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .card {
-  margin-top: 30px;
   margin-left: 40%;
   padding: 10px;
-  background-color: rgb(214, 227, 177);
+  background-color: rgb(236, 234, 245);
   border-radius: 30px;
-  border: 1px rgb(76, 4, 4) solid;
+
   width: 20%;
   height: 500px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  box-shadow: 0 18px 16px rgba(82, 82, 82, 0.5);
+  transform: scale(1.1);
 }
 @media screen and (max-width: 580px) and (min-width: 1px) {
   .card {
